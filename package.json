@@ -1,0 +1,11 @@
+{
+  "name": "foursquare-list-to-google-my-maps-converter",
+  "version": "0.0.1",
+  "description": "Module to convert Foursquare list to Google My Maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmytro Yarmak <dmytroyarmak@gmail.com>",
+  "license": "MIT"
+}
