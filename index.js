@@ -1,9 +1,8 @@
 require('isomorphic-fetch');
-const {getFoursqureLists} = require('./lib/foursquare-api');
+const {getFoursqureVenuesByListName} = require('./lib/foursquare-api');
 
 let userId = 60752501;
+let listName = 'Stockholm';
 
-getFoursqureLists(userId)
-  .then(lists => {
-    lists.forEach((list, index) => console.log(`${index + 1}.\t${list.name}`));
-  });
+getFoursqureVenuesByListName(userId, listName)
+  .then(venues => console.log(venues));
