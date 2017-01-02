@@ -5,4 +5,14 @@ let userId = 60752501;
 let listName = 'Stockholm';
 
 getFoursqureVenuesByListName(userId, listName)
-  .then(venues => console.log(venues));
+  .then(venues => {
+    console.log('Name,Latitude,Longitude,Rating')
+    venues.forEach(venue => {
+      console.log([
+        venue.name,
+        venue.location.lat,
+        venue.location.lng,
+        venue.rating
+      ].join(','));
+    })
+  });
