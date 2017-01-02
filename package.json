@@ -4,8 +4,12 @@
   "description": "Module to convert Foursquare list to Google My Maps",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Dmytro Yarmak <dmytroyarmak@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
 }
