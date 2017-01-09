@@ -1,4 +1,4 @@
-# foursquare-exporter
+# foursquare-exporter-cli
 CLI tool for exporting places from Foursquare Lists to CSV format
 
 # How to use
