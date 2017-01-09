@@ -1,5 +1,5 @@
 {
-  "name": "foursquare-list-to-google-my-maps-converter",
+  "name": "foursquare-exporter-cli",
   "version": "0.0.1",
   "description": "Module to convert Foursquare list to Google My Maps",
   "main": "index.js",
